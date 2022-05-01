@@ -1,14 +1,14 @@
 # Folder and file where pickle file is (folder/file.pkl); both 
 # names are important (folder saves the target name; HAS TO BE THE SAME AS THE 
 # TARGET NAME IN THE PICKLE FILE and file the filename):
-datafile:           HATP26/file.pkl
+datafile:           WASP19/w19_140322.pkl
 # Limb-darkening law to use:
 ld_law:             squareroot
 # Time indexes you want for the fit in pythonic-language. If times are in a variable t
 # the times to be fitted will be t[idx_time]
 idx_time: [:]
 # Which comparison stars to use. Same ordering as in pickle file:
-comps:              0,1,2
+comps:              0,1,2,3,4,6
 # Priors (assumed gaussian):
 Pmean,Psd:          0.788839316,0.000000017
 amean,asd:          3.50,0.1
